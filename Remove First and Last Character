@@ -9,3 +9,10 @@ function removeChar(str){
 str = str.slice(1, -1);
   return str;
 };
+
+// Second solving
+
+function removeChar(str){
+    str = str.substring(1, str.length -1 );
+    return str;
+    }
