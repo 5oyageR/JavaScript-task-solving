@@ -1,0 +1,7 @@
+// Example: just create a function, that multiplies two numbers 
+
+const a = 70,
+    b = 91;
+function multiply(a, b){
+ return a * b
+}
