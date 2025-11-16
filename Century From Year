@@ -1,0 +1,12 @@
+// Examlpes: 
+1705 --> 18
+1900 --> 19
+1601 --> 17
+2000 --> 20
+2742 --> 28
+
+
+function century(year) {
+  let a = year/100;
+  return Math.ceil(a);
+}
