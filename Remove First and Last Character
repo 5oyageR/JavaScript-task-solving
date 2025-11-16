@@ -1,0 +1,11 @@
+Example: 
+'eloquent' --> 'loquen'
+'country'  --> 'ountr' 
+'person'   --> 'erso'
+'xyz'      --> 'y'
+
+
+function removeChar(str){
+str = str.slice(1, -1);
+  return str;
+};
