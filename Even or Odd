@@ -1,0 +1,13 @@
+// Example: just check number for even or odd
+
+
+function even_or_odd(number) {
+  if (number % 2 == 0){
+console.log(number =  `Even`);
+    return number;
+  } else {
+    console.log(number =  `Odd`) ;
+    return number;
+  }
+
+  }
