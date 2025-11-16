@@ -1,0 +1,8 @@
+// Examples: 
+'world'  =>  'dlrow'
+'word'   =>  'drow'
+
+function solution(str){
+  str = str.split(``).reverse().join(``);
+  return str;
+}
