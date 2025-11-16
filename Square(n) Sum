@@ -1,0 +1,12 @@
+// Examples: [1, 2, 2] it should return 9.
+
+
+function squareSum(numbers = []){
+  let sum = 0;
+  for (let i=0; i < numbers.length; i+=1){
+    let c = numbers[i]**2;
+    sum += c;
+    
+  }
+  return sum;
+}
