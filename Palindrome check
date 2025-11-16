@@ -1,0 +1,18 @@
+// Examples:
+
+"racecar" –> true 
+"madam" -> true 
+"hello" -> false 
+
+
+function isPalindrome(x) {
+   x = x.toLowerCase();
+    let rev = x.split(``).reverse().join(``);
+
+    if (x === rev ){
+        return true;
+    } else {
+       return false;
+    }
+
+   }
