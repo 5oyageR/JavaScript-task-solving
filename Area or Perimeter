@@ -1,0 +1,16 @@
+// Examples: 
+6, 10 --> 32
+3, 3 --> 9
+
+
+const areaOrPerimeter = function(l , w) {
+  let perimeter = 0
+ if ( l === w) {
+  perimeter =  l*w;
+   return perimeter;
+ } else if ( l != w){
+   perimeter = 2*(l+w);
+   return perimeter;
+ }
+   
+};
